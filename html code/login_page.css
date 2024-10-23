@@ -7,12 +7,77 @@ body {
     height: 100vh;
 }
 
+nav{
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    width: 100%;
+    /* background-color: rgb(195, 205, 205); */
+    background-color: #2c2c2c;
+    /* background-image: url(../image_of_gun/backgrouund.jpeg);
+    background-size: cover; */
+}
+.navbar{
+    display: flex;
+    justify-content: start;
+}
+.search{
+    height: 40px;
+    width: 900px;
+    /* background-color: aqua; */
+    margin-left: 200px;
+}
+.search input{
+    height: 30px;
+    width: 350px;
+    margin-top: 5px;
+    /* margin-left: 50px; */
+    border-radius: 6% /100%;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    padding-left: 10px;
+    border-color: black;
+}
+.search i{
+    /* color: white; */
+    position: relative;
+    left: -30px;
+    top: 2px;
+    cursor: pointer;
+}
+.search a{
+    height: 60px;
+    width: 70px;
+    background-color: #333;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 450px;
+    margin-top: 10px;
+    color: rgb(254, 0, 0);
+}
+.content{
+    margin-top: 10px;
+    margin-left: 175px;
+    /* background-color: #e01a1a9b; */
+}
+.content a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 25px;
+    /* color: rgb(35, 33, 33); */
+    color: #ccc;
+}
+.content a:hover{
+    color:#fff; ;
+}
+
 .login-container {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px 0px #000;
-    width: 300px;
+    box-shadow: 0px 0px 10px 0px #717171d6;
+    width: 500px;
+    /* height: 400px; */
     text-align: center;
 }
 .login-container input {
@@ -25,11 +90,12 @@ body {
 .login-container button {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #d31c1c;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: 900;
 }
 .login-container button:hover {
     background-color: #45a049;
