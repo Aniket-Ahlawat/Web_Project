@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multiple Hover Dropdowns</title>
+<style>
+  /* Basic styling for menu items */
+  .menu-item {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .menu-item a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    display: block;
+  }
+
+  /* Dropdown list styling */
+  .dropdown-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(148, 121, 121, 0.2);
+    border-radius: 4px;
+    padding: 8px 0;
+    z-index: 1;
+  }
+
+  /* Style each list item */
+  .dropdown-list li {
+    list-style: none;
+    padding: 8px 16px;
+    white-space: nowrap;
+  }
+
+  .dropdown-list li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  /* Show the dropdown list on hover */
+  .menu-item:hover .dropdown-list {
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<!-- Anchor tags with dropdown lists -->
+<div class="menu-item">
+  <a href="#">Menu 1</a>
+  <ul class="dropdown-list">
+    <li><a href="#">Item 1.1</a></li>
+    <li><a href="#">Item 1.2</a></li>
+    <li><a href="#">Item 1.3</a></li>
+  </ul>
+</div>
+
+<div class="menu-item">
+  <a href="#">Menu 2</a>
+  <ul class="dropdown-list">
+    <li><a href="#">Item 2.1</a></li>
+    <li><a href="#">Item 2.2</a></li>
+    <li><a href="#">Item 2.3</a></li>
+  </ul>
+</div>
+
+<div class="menu-item">
+  <a href="#">Menu 3</a>
+  <ul class="dropdown-list">
+    <li><a href="#">Item 3.1</a></li>
+    <li><a href="#">Item 3.2</a></li>
+    <li><a href="#">Item 3.3</a></li>
+  </ul>
+</div>
+
+<div class="menu-item">
+  <a href="#">Menu 4</a>
+  <ul class="dropdown-list">
+    <li><a href="#">Item 4.1</a></li>
+    <li><a href="#">Item 4.2</a></li>
+    <li><a href="#">Item 4.3</a></li>
+  </ul>
+</div>
+
+<div class="menu-item">
+  <a href="#">Menu 5</a>
+  <ul class="dropdown-list">
+    <li><a href="#">Item 5.1</a></li>
+    <li><a href="#">Item 5.2</a></li>
+    <li><a href="#">Item 5.3</a></li>
+  </ul>
+</div>
+
+<div class="menu-item">
+  <a href="#">Menu 6</a>
+  <ul class="dropdown-list">
+    <li><a href="#">Item 6.1</a></li>
+    <li><a href="#">Item 6.2</a></li>
+    <li><a href="#">Item 6.3</a></li>
+  </ul>
+</div>
+
+</body>
+</html>

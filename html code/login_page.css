@@ -56,16 +56,65 @@ nav{
     color: rgb(254, 0, 0);
 }
 .content{
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 175px;
     /* background-color: #e01a1a9b; */
 }
 .content a{
     font-size: 20px;
     text-decoration: none;
-    margin-left: 25px;
+    /* margin-left: 25px; */
     /* color: rgb(35, 33, 33); */
     color: #ccc;
+}
+.menu-item {
+    position: relative;
+    display: inline-block;
+    /* margin-left: 40px; */
+}
+
+.menu-item a {
+    text-decoration: none;
+    /* color: black; */
+    padding: 8px 16px;
+    /* background-color: #f0f0f0; */
+    color: #e6e4e7;
+    /* font-size: 25px; */
+    border-radius: 4px;
+    display: block;
+    /* justify-content: space-evenly;
+    align-items: center; */
+    
+}
+
+  /* Dropdown list styling */
+.dropdown-list {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(148, 121, 121, 0.2);
+    border-radius: 4px;
+    padding: 8px 0;
+    z-index: 1;
+}
+
+  /* Style each list item */
+.dropdown-list li {
+    list-style: none;
+    /* padding: 8px 16px; */
+    white-space: nowrap;
+}
+
+.dropdown-list li a {
+    text-decoration: none;
+    color: #e6e4e7;
+}
+
+  /* Show the dropdown list on hover */
+.menu-item:hover .dropdown-list {
+    display: block;
 }
 .content a:hover{
     color:#fff; ;

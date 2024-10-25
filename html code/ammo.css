@@ -5,7 +5,7 @@
 body{
     /* background-color: rgb(215, 208, 196); */
     /* background-image: url(../image_of_gun/bg3.jpg); */
-    background-image: url(https://i.pinimg.com/control/564x/fc/17/e9/fc17e9cc17344ad7102f332c724c71ba.jpg);
+    background-image: url(../image_of_gun/background_body1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -62,16 +62,65 @@ nav{
     color: rgb(254, 0, 0);
 }
 .content{
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 175px;
     /* background-color: #e01a1a9b; */
 }
 .content a{
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
-    margin-left: 25px;
+    /* margin-left: 25px; */
     /* color: rgb(35, 33, 33); */
     color: #ccc;
+}
+.menu-item {
+    position: relative;
+    display: inline-block;
+    /* margin-left: 40px; */
+}
+
+.menu-item a {
+    text-decoration: none;
+    /* color: black; */
+    padding: 8px 16px;
+    /* background-color: #f0f0f0; */
+    color: #e6e4e7;
+    /* font-size: 25px; */
+    border-radius: 4px;
+    display: block;
+    /* justify-content: space-evenly;
+    align-items: center; */
+    
+}
+
+  /* Dropdown list styling */
+.dropdown-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(148, 121, 121, 0.2);
+    border-radius: 4px;
+    padding: 8px 0;
+    z-index: 1;
+}
+
+  /* Style each list item */
+.dropdown-list li {
+    list-style: none;
+    /* padding: 8px 16px; */
+    white-space: nowrap;
+}
+
+.dropdown-list li a {
+    text-decoration: none;
+    color: #e6e4e7;
+}
+
+  /* Show the dropdown list on hover */
+.menu-item:hover .dropdown-list {
+    display: block;
 }
 .content a:hover{
     color:#fff; ;
@@ -253,13 +302,13 @@ nav{
     border-radius: 5px;
 }
 .armm .ammoa{
-    background-image: url(../image_of_gun/Win\ Ammo.jpg);
+    background-image: url(../image_of_gun/308\ win.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
 }
 .armm .ammob{
-    background-image: url(../image_of_gun/10mm_ammo.jpg);
+    background-image: url(../image_of_gun/10\ mm.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
@@ -312,25 +361,25 @@ nav{
     border-radius: 5%;
 }
 .arn .ammo-d{
-    background-image: url(../image_of_gun/9mm_ammo.jpg);
+    background-image: url(../image_of_gun/handgunammo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
 }
 .arn .ammo-a{
-    background-image: url(../image_of_gun/6.5\ Creedmoor_ammo.jpeg);
+    background-image: url(../image_of_gun/riflr_ammo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
 }
 .arn .ammo-b{
-    background-image: url(../image_of_gun/223\ Rem_ammo.jpg);
+    background-image: url(../image_of_gun/shotgun_ammo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
 }
 .arn .ammo-c{
-    background-image: url(../image_of_gun/packages_and_arms.jpg);
+    background-image: url(../image_of_gun/rimfire_ammo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
